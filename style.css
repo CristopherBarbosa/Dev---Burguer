@@ -60,3 +60,31 @@ p {
     font-weight: bold;
     color: #79cb15;
 }
+
+@media (max-width: 670px) {
+    ul {
+        display: grid;
+        grid-template-columns: 200px 200px;
+    }
+}
+
+@media (max-width: 440px) {
+    ul{
+        display: grid;
+        grid-template-columns: 200px;
+    }
+
+    button{
+        width: 80px;
+        height: 50px;
+        gap: 10px;
+    }
+}
+
+@media (max-width: 420px) {
+    button{
+        width: 75px;
+        height: 60px;
+        gap: 5px;
+    }
+}
